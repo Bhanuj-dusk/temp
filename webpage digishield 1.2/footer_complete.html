@@ -1,0 +1,1093 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="bootstrap_accordian.css">
+  <link rel="stylesheet" href="custom.css">
+
+  <!-- Slick carousal css  -->
+<!--   
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
+
+  <!-- Script file  -->
+<!--   
+  <script src="myScript.js"></script> -->
+
+  <link rel="stylesheet" href="bootstrap_carousal.css">
+
+  <!-- <script src="bootstrap_carousal.js"></script> -->
+
+  <title>
+    Footer page.
+  </title>
+
+  <style>
+    a,
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover,
+    a:active {
+      color: tomato;
+    }
+  </style>
+</head>
+
+<body>
+  <P>
+    Hello World!
+  </P>
+
+
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/photos/renewable-energy-and-sustainable-development-picture-id1186330948?k=20&m=1186330948&s=612x612&w=0&h=5aNPCcQ8FcZraX44PEhb2mqcHkow2xMITJMHdh28xNg=" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap carousal multiplae item   https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards   -->
+
+<div class="container text-center my-3">
+  <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
+  <div class="row mx-auto my-auto">
+      <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+          <div class="carousel-inner w-100" role="listbox">
+              <div class="carousel-item active">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="ABSLI_logo.png">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="ABSLI_logo.png">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="ABSLI_logo.png">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="http://placehold.it/380?text=4">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="http://placehold.it/380?text=5">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-4">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="http://placehold.it/380?text=6">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
+      </div>
+  </div>
+  <h5 class="mt-2">Advances one slide at a time</h5>
+</div>
+
+
+<script>
+
+$('#recipeCarousel').carousel({
+    interval: 10000
+  })
+  
+  $('.carousel .carousel-item').each(function(){
+      var minPerSlide = 3;
+      var next = $(this).next();
+      if (!next.length) {
+      next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+      
+      for (var i=0;i<minPerSlide;i++) {
+          next=next.next();
+          if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+          
+          next.children(':first-child').clone().appendTo($(this));
+        }
+  });
+  
+
+</script>
+
+
+
+
+  <!-- slick carousal content  -->
+  <!-- <div class="card">
+    <div class="card-body">
+      <div class="multiple-items">
+        <div>
+          <div class="card">
+            <div class="card-body">
+              your content 1
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-body">
+              your content 2
+            </div>
+          </div>
+        </div>
+        <div>
+
+          <div class="card">
+            <div class="card-body">
+              your content 3
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="card-body">
+              your content 4
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+
+ <!-- slick carousal content  -->
+<!--  
+  <div class="card">
+    <div class="card-body">
+
+      <div class="multiple-items">
+        <div class="card">your content</div>
+        <div class="card">your content</div>
+        <div class="card">your content</div>
+      </div>
+
+    </div>
+  </div>
+ -->
+
+
+
+
+
+
+
+
+  <!-- bootstrap carousal for other insurance plan -->
+  <!-- so far only two cards are added -->
+
+  <div class="card text-center">
+
+    <h3 style="padding:60px">
+      <b>Other Insurance Plans</b>
+    </h3>
+
+    <div class="row p-4">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <div class="card border-0 p-3">
+          <div class="card-body shadow p-3 mb-5 bg-body rounded">
+            <img
+              src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/life-shield-plan.webp?extension=webp&revision=3eaf4a5a-aa25-4feb-8fdf-36449a7d44a1&modified=20220216073733"
+              class="rounded float-start " width="100%" height="250" alt="ABSLI Life Shield Plan">
+            <p>&nbsp;</p>
+            <h5 style="text-align:left ;">ABSLI Life Shield Plan</h5>
+            <p style="text-align:left ;">
+              Aditya Birla Sun Life Insurance Life Shield plan offers you
+              the flexibility to make a choice from amongst 8 different plan
+              options as per family's need s so they need not compormise on
+              their lifestyle, even in your absence.
+            </p>
+            <div style="text-align:left ;">
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Choice of 8 Plan options.
+              </p>
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Return of Premium option.
+              </p>
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Inbuilt terminal illness benefit.
+              </p>
+            </div>
+            <a href="#" class="btn btn-outline-danger d-grid"
+              style="--bs-btn-color:#ff8080; --bs-btn-border-color:#ff8080;">Know More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card border-0 p-3">
+          <div class="card-body shadow p-3 mb-5 bg-body rounded">
+            <img
+              src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/saral-jeevan-bima-absli.webp?extension=webp&revision=657e00d0-ee76-4f45-9865-4873624ff84e&modified=20220216073803"
+              class="rounded float-start" width="100%" height="250" alt="ABSLI Saral Jeevan Bima Yojana">
+            <p>&nbsp;</p>
+            <h5 style="text-align:left ;">ABSLI Saral Jeevan Bima Yojana</h5>
+            <p style="text-align:left ;">
+
+              Aditya Birla Sun LIfe Insurance Saral Jeevan Bima is a simple
+              life insurance plan that provides your family a lump-sum to ensure
+              fulfilment of your family's long term goals and aspirations, in case of
+              your absence
+            </p>
+            <div style="text-align:left ;">
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Premium Paying flexibility.
+              </p>
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Enhance your insurance coverage.
+              </p>
+              <p>
+                <img
+                  src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Bullet.webp?extension=webp&amp;revision=eb14c429-87b1-475c-85f9-9178d26d80c1&amp;modified=20220215103335&amp;la=en&amp;hash=84A087E2DCB64F3A701FF34892E2EF27"
+                  width="5%" height="auto"> &nbsp; Simple & affordable plan.
+              </p>
+            </div>
+            <a href="#" class="btn btn-outline-danger d-grid"
+              style="--bs-btn-color:#ff8080; --bs-btn-border-color:#ff8080;">Know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="card text-center">
+    <div class="card-header">
+      Add-ons
+
+
+
+
+
+
+      <!-- bootstrap accordion for Disclaimer -->
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="Disclaimer">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsedisclaimer" aria-expanded="false" aria-controls="collapsedisclaimer">
+              <p style="padding:0 140 0 140; font-weight: bold;">Disclaimer</p>
+            </button>
+          </h2>
+          <div id="collapsedisclaimer" class="accordion-collapse collapse" aria-labelledby="Disclaimer" style="">
+            <div class="accordion-body text-left" style="text-align: left; font-size:13; padding:30 100 30 100;">
+              <sup>1</sup>
+              Age: 25 years, Gender: Male, Smoking status: Non-smoker, Sum Assured: 1 Crore, Policy term: 30 years, Plan
+              option: Option 1: Level Cover,
+              Premium paying term: Regular pay Annual Premium of ₹9676 / 365 days = ₹26.5/day (Including GST) rounded
+              off to ₹27/ day.
+              <p>
+                This policy is underwritten by Aditya Birla Sun Life Insurance Company Limited (ABSLI). This is a
+                non-linked non-participating individual pure risk premium life insurance plan; upon
+                Policyholder’s selection of Plan Option 9 (Level Cover with Survival Benefit) and Plan Option 10 (Return
+                of Premium [ROP]) this product shall be a
+                non-linked non-participating individual life savings insurance plan. All terms & conditions are
+                guaranteed throughout the Policy Term.
+                GST and any other applicable taxes will be added (extra) to your premium and levied as per extant tax
+                laws. An extra premium may be
+                charged as per our then existing underwriting guidelines for substandard lives, smokers or people having
+                hazardous occupations etc. For
+                further details please refer to the Policy contract. Tax benefits are subject to changes in the tax
+                laws. For more details and
+                clarification call your ABSLI Insurance Advisor or visit our website and see how we can help in making
+                your dreams come true. UIN: 109N108V08s
+                ADV/3/21-22/2393</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+  <div class="card bg-dark text-white">
+    <div class="card-body p-5">
+
+
+      <div class="row m-0">
+        <div class="col-sm-3 d-none d-lg-block">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+              <img style=" padding-left: 30px" class="rounded" src="ABSLI_logo.png" alt="ABSLI logo">
+
+              <br><br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li> <a href="#">
+                    <h5>Term Insurance</h5>
+                  </a></li>
+                <li> <a href="#">ABSLI DigiShield Plan</a></li>
+                <li> <a href="#">ABSLI Life Shield Plan</a></li>
+                <li> <a href="#">ABSLI Saral Jeevan Bima</a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Endownment Plans</h5>
+                  </a></li>
+                <li><a href="#"> ABSLI Guranteed Milestone Plan </a></li>
+                <li> <a href="#">ABSLI Saving Plan</a></li>
+                <li> <a href="#">ABSLI SecurePlus plan</a></li>
+                <li><a href="#"> ABSLI Vision LifeIncome Plan</a></li>
+                <li> <a href="#"> ABSLI Vision MoneyBack Plus plan</a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Health Insurance</h5>
+                  </a></li>
+                <li><a href="#"> ABSLI Cancer Shield Plan </a></li>
+                <li> <a href="#">ABSLI CritiShield Plan</a></li>
+              </ul>
+
+
+              <br>
+
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Retirement Plans</h5>
+                  </a></li>
+                <li><a href="#"> ABSLI Empower Pension Plan </a></li>
+                <li> <a href="#">ABSLI Empower Pension- SP Plan</a></li>
+                <li> <a href="#">ABSLI Saral Pension</a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>ULIP Plans</h5>
+                  </a></li>
+                <li><a href="#"> ABSLI Fortune Elite Plan</a></li>
+                <li><a href="#"> ABSLI Wealth Aspire Plan</a></li>
+                <li><a href="#"> ABSLI Wealth Assure Plus</a></li>
+                <li><a href="#"> ABSLI Wealth max Plan</a></li>
+                <li><a href="#"> ABSLI Wealth Secure Plan</a></li>
+              </ul>
+
+              <br>
+
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Chield Plans</h5>
+                  </a></li>
+                <li><a href="#"> ABSLI Child's Future Assured Plan </a></li>
+                <li> <a href="#">ABSLI Vision Star Plan</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 d-none d-lg-block">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Group Plans</h5>
+                  </a></li>
+                <li><a href="#">
+                    <h6><b>Protection Solutions</b></h6>
+                  </a></li>
+                <li><a href="#"> Affinity </a></li>
+                <li> <a href="#">Credit Life</a></li>
+                <li> <a href="#">Employer Emplyee</a></li>
+                <li><a href="#">Voluntary</a></li>
+                <br>
+                <li><a href="#">
+                    <h6><b>Retirement Solutions</b></h6>
+                  </a></li>
+                <li><a href="#"> Gratuity </a></li>
+                <li> <a href="#">Leave Encashment</a></li>
+                <li> <a href="#">Post Retirment Medical Benifits Scheme</a></li>
+                <li><a href="#">Superannuation</a></li>
+                <li><a href="#">Annuity Scheme</a></li>
+                <br>
+                <li><a href="#">
+                    <h6><b>Riders</b></h6>
+                  </a></li>
+                <li><a href="#"> Group Riders </a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>About Us</h5>
+                  </a></li>
+                <li><a href="#"> Company Profile </a></li>
+                <li> <a href="#">Board of Directors</a></li>
+                <li><a href="#">Business Continuity Plan</a></li>
+              </ul>
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Insurance Calculators</h5>
+                  </a></li>
+                <li><a href="#"> Child Future Plannign Calculator</a></li>
+                <li> <a href="#">Health Plan Calculator</a></li>
+                <li><a href="#">Human Life Value Calculator</a></li>
+                <li><a href="#">Retirment Plannign Calculator</a></li>
+                <li> <a href="#"> Wealth Calculator</a></li>
+              </ul>
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Discontinued Plans</h5>
+                    <h5>Underwriting Philosphy</h5>
+                  </a></li>
+                <li><a href="#"> Mental Illness</a></li>
+                <li> <a href="#">HIV / AIDS</a></li>
+                <li><a href="#">PWD</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-3 d-none d-lg-block">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Our Funds</h5>
+                  </a></li>
+                <li><a href="#"> Fund Portfolio & Benchmark </a></li>
+                <li> <a href="#">NAV Performance</a></li>
+              </ul>
+
+
+              <br>
+
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Public Disclosure</h5>
+                  </a></li>
+                <li><a href="#"> Enviromental Management System</a></li>
+                <li> <a href="#">IRDAI Circular</a></li>
+                <li><a href="#">IRDAI Consumer Education</a></li>
+                <li><a href="#">IRDAI Public Notice on Spurious Phone caller</a></li>
+                <li><a href="#">NAV Formula</a></li>
+              </ul>
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Quick Links</h5>
+                  </a></li>
+                <li><a href="#"> Pay premium</a></li>
+                <li> <a href="#">View policy </a></li>
+                <li><a href="#">Download Tax Certificate</a></li>
+                <li><a href="#">Download Payment Receipt</a></li>
+                <li><a href="#">Policy Account Statement</a></li>
+                <li><a href="#">Contact Salahkar</a></li>
+                <li><a href="#">Manage your policy</a></li>
+                <li><a href="#">Claim for Earthquake victims</a></li>
+                <li><a href="#">Whatsapp Services</a></li>
+              </ul>
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Where Do I?</h5>
+                  </a></li>
+                <li><a href="#"> Manage my policy</a></li>
+                <li> <a href="#">Manage Claims </a></li>
+                <li><a href="#">Read Articles</a></li>
+                <li><a href="#">Register for One ABC ID</a></li>
+                <li><a href="#">Contact ABSLI</a></li>
+                <li><a href="#">Learn Insurance Basics</a></li>
+                <li><a href="#">Read FAQs</a></li>
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Top Articles -->
+
+
+        <div class="col-sm-3 d-none d-lg-block">
+          <div class="card bg-dark text-white">
+            <div class="card-body">
+
+              <ul style="list-style-type:none; font-size:12">
+                <li><a href="https://lifeinsurance.adityabirlacapital.com/articles">
+                    <h5>Top Articles</h5>
+                  </a></li>
+
+                <li>
+
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Term-Insurance/Term-Insurance-1.webp?extension=webp&amp;revision=57f3a6e5-e605-4573-a5e5-1931ffedca61&amp;modified=20220124044924"
+                          class="img-fluid">
+                      </div>
+                      <div class="col-8">
+                        <p
+                          style="display: -webkit-box; max-width: 200px;    -webkit-line-clamp: 2;    -webkit-box-orient: vertical;    overflow: hidden;">
+                          <a
+                            href="https://lifeinsurance.adityabirlacapital.com/articles/term-insurance/difference-between-life-insurance-and-term-insurance">
+                            How is term insurance different from life insurance</a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/hp1_190.webp?extension=webp&amp;revision=d12cd3f2-599d-47aa-9fc3-ee4e832c36f8&amp;modified=20220121082900%22%20class=%22img-link-block__img%22%20alt=%22What%20is%20Health%20Insurance%20and%20Benefits%20of%20Health%20Insurance?%20-%20Aditya%20Birla%20Sun%20Life%20Insurance"
+                          class="img-fluid">
+                      </div>
+                      <div class="col-8">
+                        <p
+                          style="display: -webkit-box; max-width: 200px;    -webkit-line-clamp: 2;    -webkit-box-orient: vertical;    overflow: hidden;">
+                          <a
+                            href="https://lifeinsurance.adityabirlacapital.com/articles/health-insurance/what-is-health-insurance-and-benefits-of-health-insurance">What
+                            is Health Insurance and Benefits of Health Insurance? - Aditya Birla Sun Life Insurance</a>
+                        </p>
+                      </div>
+                    </div>
+
+
+                    <hr>
+
+                    <div class="row">
+                      <div class="col-4">
+                        <img
+                          src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Images/Awards/New-Folder-2-Resized/Importance_190.webp?extension=webp&revision=ab2f814d-af9d-45aa-9ccf-e4f6c9a39317&modified=20220111110702"
+                          class="img-fluid">
+                      </div>
+                      <div class="col-8">
+                        <p
+                          style="display: -webkit-box; max-width: 200px;    -webkit-line-clamp: 2;    -webkit-box-orient: vertical;    overflow: hidden;">
+                          <a
+                            href="https://lifeinsurance.adityabirlacapital.com/articles/term-insurance/adequate-budget-for-term-insurance">
+                            How much should be the adequate budget to be allotted for term insurance?</a>
+                        </p>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+
+                </li>
+
+              </ul>
+
+
+              <br>
+
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Governing Bodies</h5>
+                  </a></li>
+                <li><a href="#"> Insurance OMbudsman</a></li>
+                <li> <a href="#">IRDAI </a></li>
+                <li><a href="#">Life Insurance Council</a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Support</h5>
+                  </a></li>
+                <li><a href="#"> Corporate Agent</a></li>
+                <li> <a href="#">Do not calll Registry </a></li>
+                <li><a href="#">Grievence Redressal</a></li>
+                <li><a href="#">Service TAT</a></li>
+                <li><a href="#">Unsolicitated Calls</a></li>
+              </ul>
+
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Copyright & Usage</h5>
+                  </a> </li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Sitemap</a></li>
+                <li><a href="#"> Terms of Use</a></li>
+              </ul>
+
+
+              <br>
+
+              <ul style="list-style-type:none; font-size:14">
+                <li><a href="#">
+                    <h5>Contact with Us</h5>
+                  </a></li>
+                <li>
+
+
+                  <!-- <div class="col-lg-3 d-none d-lg-block"> -->
+                  <a class="btn btn-md btn-floating" style="color: #FFFFFF;"
+                    href="https://www.facebook.com/adityabirlacapital/" role="button">
+                    <i class="fab fa-facebook-f"></i>
+
+                  </a>
+
+                  <a class="btn btn-md btn-floating" style="color: #FFFFFF;"
+                    href="https://www.facebook.com/adityabirlacapital/" role="button">
+                    <i class="fab fa-instagram"></i></a>
+
+
+
+                  <a class="btn btn-md btn-floating" style="color: #FFFFFF;"
+                    href="https://www.facebook.com/adityabirlacapital/" role="button">
+                    <i class="fab fa-linkedin-in"></i></a>
+
+                  <a class="btn btn-md btn-floating" style="color: #FFFFFF;"
+                    href="https://www.facebook.com/adityabirlacapital/" role="button">
+                    <i class="fab fa-twitter"></i></a>
+
+                  <a class="btn btn-md btn-floating" style="color: #FFFFFF;"
+                    href="https://www.facebook.com/adityabirlacapital/" role="button">
+                    <i class="fab fa-youtube"></i></a>
+
+
+                  <!-- </div> -->
+
+                </li>
+              </ul>
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+
+      <!--   --------- Accordion -------------------------------------   -->
+
+
+      <div class="accordion d-lg-none d-sm-block ">
+        <div class="accordion-item bg-dark text-white">
+          <h2 class="accordion-header" id="Term_Insurance">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Term Insurance
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="Term_Insurance"
+            data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body">
+              <a class="dropdown-item" href="#"><b>Term Insurance</b></a><br>
+              <a class="dropdown-item" href="#">ABSLI DigiShield Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Life Shield Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Saral Jeevan Bima</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item bg-dark text-white">
+          <h2 class="accordion-header" id="Retirement_Plans">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Retirement Plans
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="Retirement_Plans"
+            data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body">
+              <a class="dropdown-item" href="#"><b>Retirement Plans</b></a><br>
+              <a class="dropdown-item" href="#">ABSLI Empower Pension Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Empower Pension- SP Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Saral Pension</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="accordion-item bg-dark text-white">
+          <h2 class="accordion-header" id="ULIP_Plans">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ULIP Plans
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="ULIP_Plans"
+            data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body">
+              <a class="dropdown-item" href="#"><b>ULIP Plans</b></a><br>
+              <a class="dropdown-item" href="#">ABSLI Fortune Elite Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Wealth Aspire Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Wealth Assure Plus</a>
+              <a class="dropdown-item" href="#">ABSLI Wealth max Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Wealth Secure Plan</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="accordion-item bg-dark text-white">
+          <h2 class="accordion-header" id="Copyright&Usage">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Copyright & Usages
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="Copyright&Usage"
+            data-bs-parent="#accordionExample" style="">
+            <div class="accordion-body">
+              <a class="dropdown-item" href="#"><b>Copyright & Usage</b></a><br>
+              <a class="dropdown-item" href="#">ABSLI Empower Pension Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Empower Pension- SP Plan</a>
+              <a class="dropdown-item" href="#">ABSLI Saral Pension</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+      <!-- Dropdown --------------------------------------------------  -->
+
+      <!--   
+      
+      <div class="dropdown">
+<button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<h5>Term Insurance</h5>
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">ABSLI DigiShield Plan</a>
+<a class="dropdown-item" href="#">ABSLI Life Shield Plan</a>
+<a class="dropdown-item" href="#">ABSLI Saral Jeevan Bima</a>
+
+</div>      
+</div>
+
+
+
+
+<div class="dropdown">
+<button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+<h5>Retirement Plans</h5>
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+<a class="dropdown-item" href="#">ABSLI Empower Pension Plan</a>
+<a class="dropdown-item" href="#">ABSLI Empower Pension- SP Plan</a>
+<a class="dropdown-item" href="#">ABSLI Saral Pension</a>
+
+</div>      
+</div>
+
+
+
+<div class="dropdown">
+<button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+<h5>ULIP Plans</h5>
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+<a class="dropdown-item" href="#">ABSLI Fortune Elite Plan</a>
+<a class="dropdown-item" href="#">ABSLI Wealth Aspire Plan</a>
+<a class="dropdown-item" href="#">ABSLI Wealth Assure Plus</a>
+<a class="dropdown-item" href="#">ABSLI Wealth max Plan</a>
+<a class="dropdown-item" href="#">ABSLI Wealth Secure Plan</a>
+</div>      
+</div>
+
+
+<div class="dropdown">
+<button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+<h6>Copyright & Usage</h6>
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenu4">
+<a class="dropdown-item" href="#">Privacy Policy</a>
+<a class="dropdown-item" href="#">Sitemap</a>
+<a class="dropdown-item" href="#">Terms of Use</a>
+</div>      
+</div>      
+      
+
+
+-->
+
+
+
+
+      <!--       Rider                --------------------------------     -->
+      <br>
+      <h5 class="card-title">Riders</h5>
+      <hr>
+      <p class="card-text">For more details on risk factors, terms and conditions please read sales brochure carefully
+        before concluding the sale.</p>
+      <p>
+
+        Trade Logo "Aditya Birla Capital" displayed above is owned by ADITYA BIRLA MANAGEMENT CORPORATION PRIVATE
+        LIMITED (Trademark Owner) and used by ADITYA BIRLA SUN LIFE INSURANCE COMPANY LIMITED (ABSLI) under the license.
+      </p>
+      <p>
+        Aditya Birla Sun Life Insurance Company Limited, Registered with Insurance Regulatory & Development Authority of
+        India (IRDAI) as Life Insurance Company.
+      </p><br>
+      <p>
+        <b>Registered Office:</B><br>
+        One World Center Tower 1, 16th Floor, Jupiter Mill Compound, 841, Senapati Bapat Marg, Elphinstone Road, Mumbai
+        - 400013. Toll free no. 1800-270-7000. www.adityabirlasunlifeinsurance.com CIN: U99999MH2000PLC128110
+        Registration No. 109.
+      </p>
+      <hr>
+
+      <p>
+        <B>BEWARE OF SPURIOUS / FRAUD PHONE CALLS!</B> <br>
+        IRDAI is not involved in activities like selling insurance policies, announcing bonus or investment of premiums.
+        Public receiving such phone calls are requested to lodge a police complaint.
+      </p>
+      <hr>
+    </div>
+  </div>
+
+
+
+  <div class="card-footer bg-secondary">
+    <div class="card-footer p-4 text-muted d-none d-lg-block">
+
+
+
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us">About</a></div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us/our-solutions">Our Solutions</a>
+          </div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us/our-businesses">Our Businesses</a>
+          </div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/branch-locator">Locate Us</a></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us/careers">Careers</a></div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/investor-relations">Investor Relations</a>
+          </div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us/financial-achievements">Our
+              Achievements</a></div>
+          <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/privacy-policy">Privacy Policy</a>
+          </div>
+          <div class="row">
+            <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/customer-services">Customer Services</a>
+            </div>
+            <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/press-and-media">Press and media</a></div>
+            <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/about-us/csr-and-sustainability">CSR and
+                Sustainability</a></div>
+            <div class="col-lg-2"><a href="https://www.adityabirlacapital.com/terms-and-conditions">Terms and
+                Conditions</a></div>
+          </div>
+        </div><br>
+        <hr><br>
+      </div>
+
+    </div>
+    <div class="text-white px-2">
+      <div class="row">
+        <div class="col-lg-7">
+          <p class="text-white" style="font-size:14" ;>&copy;
+            <script>
+              document.write(new Date().getFullYear())
+
+            </script>, Aditya Birla Capital Ltd. All Right Reserved.
+          </p>
+        </div>
+
+        <div class="col-lg-2">
+          <p style="font-size:13">Call us toll free:
+            <i class="fa fa-phone"></i>
+            1800 270 7000
+
+          </P>
+        </div>
+
+        <div class="col-lg-3 d-none d-lg-block">
+          <a class="btn btn-lg btn-floating" style="color: #FFFFFF;" href="https://www.facebook.com/adityabirlacapital/"
+            role="button">
+            <i class="fab fa-facebook-f"></i>
+
+          </a>
+
+          <a class="btn btn-lg btn-floating" style="color: #FFFFFF;" href="https://www.facebook.com/adityabirlacapital/"
+            role="button">
+            <i class="fab fa-instagram"></i></a>
+
+
+
+          <a class="btn btn-lg btn-floating" style="color: #FFFFFF;" href="https://www.facebook.com/adityabirlacapital/"
+            role="button">
+            <i class="fab fa-linkedin-in"></i></a>
+
+          <a class="btn btn-lg btn-floating" style="color: #FFFFFF;" href="https://www.facebook.com/adityabirlacapital/"
+            role="button">
+            <i class="fab fa-twitter"></i></a>
+
+          <a class="btn btn-lg btn-floating" style="color: #FFFFFF;" href="https://www.facebook.com/adityabirlacapital/"
+            role="button">
+            <i class="fab fa-youtube"></i></a>
+
+
+
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- script for adding slick carousal  -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+</body>
+
+</html>
