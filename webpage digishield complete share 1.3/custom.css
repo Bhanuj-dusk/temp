@@ -1,0 +1,176 @@
+
+
+
+
+
+.card {
+    --bs-card-border-width: 0px;
+}
+
+
+
+
+a,
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover,
+    a:active {
+      color: tomato;
+    }
+
+    table,
+    tr,
+    td {
+      border: 1px solid black;
+    }
+
+
+
+
+/* tabs styling css */
+
+
+.tab {
+    overflow: hidden;
+    border: 0px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    /* background-color: #ddd; */
+    border:none; 
+    border-bottom-style:solid; 
+    border-color:brown;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:none;
+    color: brown;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px;
+  }
+
+
+
+
+
+
+
+  /* Sticky Navbar css */
+
+
+
+
+  /* Style the navbar */
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  color: #201010;
+  text-align: left;
+  padding: 4px;
+  font-size: 14px;
+}
+
+#navbar a:hover {
+  border:none; 
+    border-bottom-style:solid; 
+    border-color:brown;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+/* Topnavbar styling */
+
+#topnavbar{
+  color: aliceblue;
+}
+
+#topnavbarfirst{
+  background-color: white;
+}
+
+.toprednavbar{
+  background-color: #bb080b;
+  
+}
+
+.topnavbarfirstbutton{
+  display: flex ;
+  justify-content: flex-end;
+}
+
+.topnavbarfirstbutton a{
+  background-color:  #bb080b;
+  color: #f3dcdcdc;
+  padding-right: 1%;
+  padding-left: 1%;
+  font-weight: 700;
+}
+
+.topnavbarsecond{
+  
+}
+
+.topnavbarsecond  img{
+  width: 120%;
+  height: auto;
+  padding: 10%;
+  padding-left: 18%;
+  /* padding-right: 16%; */
+}
+
+
+.topnavbarsecond  a{
+  padding: 2%;
+}
+
+
+.topnavbarthird{
+  background-color:#ce7b7b;
+}
+.topnavbarthird a{
+  font-weight: 400;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#topnavbarlast{
+  font-size: 130%;
+  padding-left: 3%;
+}
